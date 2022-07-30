@@ -1,0 +1,50 @@
+nav.navBar {
+  width: 80vw;
+  height: 17vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.navMenuItem {
+  display: flex;
+  justify-content: unset;
+}
+
+ul.navMenuItem > li {
+  list-style: none;
+  margin: 0rem 2rem;
+}
+ul.navMenuItem > li > a {
+  text-decoration: none;
+  color: white;
+}
+.navLoog > img {
+  width: 3rem;
+}
+.navLoog > div:last-child > h6 > span {
+  color: #28ace2;
+}
+.navLoog > div:last-child > p {
+  font-size: 8px;
+  letter-spacing: 3px;
+  color: #086098;
+  margin-top: -5px;
+  text-align: center;
+}
+.navLoog > div:last-child > h6 {
+  font-size: 1.5rem;
+  color: #086098;
+}
+.navLoog > div:last-child {
+  border-left: 1px solid #28ace2;
+  padding: 0px 0px 0px 7px;
+}
+.navLoog {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeNav {
+  color: yellow !important;
+}

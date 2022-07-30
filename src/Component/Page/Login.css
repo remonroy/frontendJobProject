@@ -1,0 +1,76 @@
+section.loginSection {
+  height: 100vh;
+  color: white;
+}
+.loginBox > div:first-child {
+  border-right: 1px solid;
+  height: 100vh;
+  text-align: center;
+  width: 35rem;
+}
+.loginBox {
+  display: flex;
+}
+.loginItemField {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+  display: grid;
+  padding: 2rem;
+}
+.mainLoginField {
+  background: white;
+  padding: 2rem;
+  width: 100%;
+  color: black;
+}
+.mainLoginField > div:first-child {
+  text-align: center;
+}
+.aiIcon > svg {
+  position: absolute;
+  color: #706565;
+  font-size: 2vmax;
+  transform: translateX(-2.6vmax);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+.mainLoginField > div > input {
+  width: 100%;
+  padding: 1vmax 3vmax;
+  box-sizing: border-box;
+  margin: 5px 0px;
+  outline: none;
+  padding-left: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+input.loginBtn {
+  background: #0096c7;
+  color: white;
+}
+.loginBox > div:first-child > h3 {
+  color: #0096c7;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0px;
+  margin-bottom: 3rem;
+}
+.loginBox > div:first-child > p {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.mainLoginField > div:first-child > p {
+  color: #ddd;
+  font-size: 11px;
+  margin-bottom: 0.5rem;
+}
+
+.mainLoginField > div:first-child > h2 {
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
